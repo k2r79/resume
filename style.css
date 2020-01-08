@@ -127,6 +127,10 @@ h1.category-header {
     text-align: justify;
 }
 
+#infos i.fa {
+    margin-right: 5px;
+}
+
 #technologies > p {
     font-size: 1.1rem;
     text-align: justify;
