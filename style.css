@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Alata";
+    src: url("fonts/Alata-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: bold;
+    src: url("fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Niramit";
+    src: url("fonts/Niramit-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Niramit";
+    font-weight: bold;
+    src: url("fonts/Niramit-Regular.ttf") format("truetype");
+}
+
+@page {
+    size: A4;
+}
+
+@media print {
+
+    html {
+        font-size: 12pt !important;
+    }
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+
+    body {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+html {
+    font-size: 9pt;
+}
+
+body {
+    font-family: "Niramit";
+    width: 210mm;
+    height: 297mm;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 30px #CCC;
+}
+
+h1.category-header {
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #666;
+}
+
+.container-fluid {
+    padding: 0 15px 15px 15px;
+}
+
+#header {
+    background-color: black;
+    margin-bottom: 25px;
+}
+
+#header h1 {
+    color: white;
+    font-family: "Bebas Neue";
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-bottom: -5px;
+}
+
+#header h2 {
+    font-family: "Alata";
+    color: white;
+    font-size: 2.5rem;
+}
+
+.experience > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.experience > h1 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.experience > h2 {
+    color: #666;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.experience > p {
+    font-size: 0.95rem;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#technologies > p {
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+#certifications, #scholarship, #technologies {
+    margin-top: 30px;
+}
+
+#scholarship .school {
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#scholarship .school > i {
+    position: absolute;
+    margin-left: -14.5px;
+    font-family: "Arial";
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+#scholarship .school > span {
+    font-size: 0.95rem;
+}
+
+#scholarship .school > h1 {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+}
+
+#scholarship .school > h2 {
+    margin: 4px 0 0 10px;
+    font-size: 0.95rem;
+    text-align: justify;
+}
