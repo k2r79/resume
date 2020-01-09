@@ -85,12 +85,12 @@ h1.category-header {
 }
 
 .container-fluid {
-    padding: 0 11pt 11pt 11pt;
+    padding: 0 11pt 0 11pt;
 }
 
 #header {
     background-color: black;
-    margin-bottom: 16pt;
+    margin-bottom: 15pt;
 }
 
 #header h1 {
