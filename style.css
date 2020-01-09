@@ -111,7 +111,7 @@ h1.category-header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3pt;
+    margin-bottom: 4pt;
 }
 
 .experience > h1 {
@@ -135,8 +135,8 @@ h1.category-header {
 .experience > p {
     font-size: 0.95rem;
     padding-left: 11pt;
-    margin-top: 3pt;
-    margin-bottom: 4pt;
+    margin-top: 2pt;
+    margin-bottom: 3pt;
     text-align: justify;
 }
 
@@ -146,7 +146,7 @@ h1.category-header {
     text-align: justify;
     font-size: 0.8rem;
     margin-top: 8pt;
-    margin-bottom: 8pt;
+    margin-bottom: 12pt;
 }
 
 #infos i.fa {
