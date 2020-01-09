@@ -49,6 +49,10 @@
         margin-top: 0 !important;
         margin-bottom: 0 !important;
     }
+
+    #scholarship .school > i {
+        margin-left: -12pt !important;
+    }
 }
 
 html {
@@ -75,7 +79,7 @@ h1.category-header {
     font-family: "Lato";
     font-weight: bold;
     font-size: 1.8rem;
-    margin-bottom: 15pt;
+    margin-bottom: 12pt;
     padding-bottom: 5pt;
     border-bottom: 1pt solid #666;
 }
@@ -107,7 +111,7 @@ h1.category-header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 8pt;
+    margin-bottom: 3pt;
 }
 
 .experience > h1 {
@@ -131,17 +135,18 @@ h1.category-header {
 .experience > p {
     font-size: 0.95rem;
     padding-left: 11pt;
-    margin-top: 4pt;
-    margin-bottom: 11pt;
+    margin-top: 3pt;
+    margin-bottom: 4pt;
     text-align: justify;
 }
 
-.experience > p > span {
+.experience > p.technologies {
     display: block;
     color:#666;
     text-align: justify;
     font-size: 0.8rem;
     margin-top: 8pt;
+    margin-bottom: 8pt;
 }
 
 #infos i.fa {
@@ -154,7 +159,7 @@ h1.category-header {
     line-height: 2rem;
 }
 
-#technologies > p > strong {
+#technologies > p {
     font-size: 1.1rem;
 }
 
