@@ -59,29 +59,29 @@ body {
     font-family: "Niramit";
     width: 210mm;
     height: 297mm;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 22pt;
+    margin-bottom: 22pt;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 30px #CCC;
+    box-shadow: 0 0 22pt #CCC;
 }
 
 h1.category-header {
     font-family: "Lato";
     font-weight: bold;
     font-size: 1.8rem;
-    margin-bottom: 20px;
-    padding-bottom: 7px;
-    border-bottom: 1px solid #666;
+    margin-bottom: 15pt;
+    padding-bottom: 5pt;
+    border-bottom: 1pt solid #666;
 }
 
 .container-fluid {
-    padding: 0 15px 15px 15px;
+    padding: 0 11pt 11pt 11pt;
 }
 
 #header {
     background-color: black;
-    margin-bottom: 25px;
+    margin-bottom: 18pt;
 }
 
 #header h1 {
@@ -89,7 +89,7 @@ h1.category-header {
     font-family: "Bebas Neue";
     text-transform: uppercase;
     font-size: 5rem;
-    margin-bottom: -5px;
+    margin-bottom: -4pt;
 }
 
 #header h2 {
@@ -102,7 +102,7 @@ h1.category-header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 8pt;
 }
 
 .experience > h1 {
@@ -116,7 +116,7 @@ h1.category-header {
     color: #666;
     display: inline-block;
     font-size: 0.9rem;
-    margin-left: 10px;
+    margin-left: 8pt;
 }
 
 .experience > h2 > span {
@@ -125,14 +125,14 @@ h1.category-header {
 
 .experience > p {
     font-size: 0.95rem;
-    padding-left: 15px;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    padding-left: 11pt;
+    margin-top: 4pt;
+    margin-bottom: 11pt;
     text-align: justify;
 }
 
 #infos i.fa {
-    margin-right: 5px;
+    margin-right: 4pt;
 }
 
 #technologies > p {
@@ -142,18 +142,18 @@ h1.category-header {
 }
 
 #certifications, #scholarship, #technologies {
-    margin-top: 30px;
+    margin-top: 22pt;
 }
 
 #scholarship .school {
     border-left: 1px solid black;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding-left: 8pt;
+    padding-bottom: 8pt;
 }
 
 #scholarship .school > i {
     position: absolute;
-    margin-left: -11pt;
+    margin-left: -11.3pt;
     font-family: "Arial";
     font-size: 2rem;
     line-height: 2rem;
@@ -167,11 +167,11 @@ h1.category-header {
     display: inline-block;
     font-size: 1.1rem;
     font-weight: bold;
-    margin: 0 0 0 5px;
+    margin: 0 0 0 4pt;
 }
 
 #scholarship .school > h2 {
-    margin: 4px 0 0 10px;
+    margin: 3pt 0 0 8pt;
     font-size: 0.95rem;
     text-align: justify;
 }
