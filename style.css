@@ -140,6 +140,11 @@ h1.category-header {
     text-align: justify;
 }
 
+.experience > ul > li {
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
 .experience > p.technologies {
     display: block;
     color:#666;
@@ -153,18 +158,18 @@ h1.category-header {
     margin-right: 4pt;
 }
 
-#technologies > p {
+#skills > p {
     font-size: 1rem;
     text-align: justify;
     line-height: 2rem;
 }
 
-#technologies > p {
+#skills > p {
     font-size: 1.1rem;
 }
 
-#certifications, #scholarship, #technologies {
-    margin-top: 22pt;
+#certifications, #scholarship, #skills {
+    margin-top: 15pt;
 }
 
 #certifications strong {
