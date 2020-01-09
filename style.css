@@ -27,7 +27,7 @@
 @font-face {
     font-family: "Niramit";
     font-weight: bold;
-    src: url("fonts/Niramit-Regular.ttf") format("truetype");
+    src: url("fonts/Niramit-Medium.ttf") format("truetype");
 }
 
 @page {
@@ -52,6 +52,7 @@
 }
 
 html {
+    --main-color: rgb(29, 104, 170);
     font-size: 9pt;
 }
 
@@ -66,7 +67,12 @@ body {
     box-shadow: 0 0 22pt #CCC;
 }
 
+strong {
+    color: var(--main-color);
+}
+
 h1.category-header {
+    color: var(--main-color);
     font-family: "Lato";
     font-weight: bold;
     font-size: 1.8rem;
@@ -143,6 +149,10 @@ h1.category-header {
 
 #certifications, #scholarship, #technologies {
     margin-top: 22pt;
+}
+
+#certifications strong {
+    color: black !important;
 }
 
 #scholarship .school {
