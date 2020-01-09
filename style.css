@@ -119,6 +119,10 @@ h1.category-header {
     margin-left: 10px;
 }
 
+.experience > h2 > span {
+    margin: 0 5pt 0 5pt;
+}
+
 .experience > p {
     font-size: 0.95rem;
     padding-left: 15px;
