@@ -128,6 +128,10 @@ h1.category-header {
     margin-left: 8pt;
 }
 
+.experience > h2 > strong {
+    color: black;
+}
+
 .experience > h2 > span {
     margin: 0 5pt 0 5pt;
 }
